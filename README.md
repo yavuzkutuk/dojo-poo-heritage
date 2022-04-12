@@ -13,3 +13,5 @@
 2. La méthode walk() prend un paramètre de type string qui indique la direction ('right', 'left', 'top', 'bottom'). Uniquement ces valeurs sont autorisées.
 2. Lors d’un echo sur un objet, ce dernier doit afficher sa position (revoir le cours 1).
 La méthode attack() affiche juste une phrase “à l’attaque”.
+
+![alt uml](uml.png "UML")
