@@ -26,4 +26,64 @@ class Unit
             $this->position[1]-= $this->speed;
         }
     }
+
+    /**
+     * Get the value of pv
+     */ 
+    public function getPv()
+    {
+        return $this->pv;
+    }
+
+    /**
+     * Set the value of pv
+     *
+     * @return  self
+     */ 
+    public function setPv($pv)
+    {
+        $this->pv = $pv;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of position
+     */ 
+    public function getPosition()
+    {
+        return $this->position;
+    }
+
+    /**
+     * Set the value of position
+     *
+     * @return  self
+     */ 
+    public function setPosition($position)
+    {
+        $this->position = $position;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of speed
+     */ 
+    public function getSpeed()
+    {
+        return $this->speed;
+    }
+
+    /**
+     * Set the value of speed
+     *
+     * @return  self
+     */ 
+    public function setSpeed($speed)
+    {
+        $this->speed = $speed;
+
+        return $this;
+    }
 }
